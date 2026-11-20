@@ -1,0 +1,4 @@
+main	int main(int argc, char **argv)\n{\n\t\n\treturn 0;\n}\n
+for loop	for (int i = 0; i < n; i++) {\n\t\n}\n
+include guard	#ifndef NAME_H\n#define NAME_H\n\n#endif /* NAME_H */\n
+struct	struct name {\n\t\n};\n

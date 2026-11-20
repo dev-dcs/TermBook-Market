@@ -1,0 +1,3 @@
+main	fun main() {\n    \n}\n
+data class	data class Name(val id: Int)\n
+when	when (x) {\n    else -> {}\n}\n

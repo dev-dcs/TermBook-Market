@@ -1,0 +1,5 @@
+main guard	if __name__ == "__main__":\n    main()\n
+def	def name(arg):\n    pass\n
+class	class Name:\n    def __init__(self):\n        pass\n
+with open	with open(path) as f:\n    data = f.read()\n
+try	try:\n    pass\nexcept Exception as e:\n    print(e)\n

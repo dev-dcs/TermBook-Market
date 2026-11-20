@@ -1,0 +1,5 @@
+shebang	#!/usr/bin/env bash\nset -euo pipefail\n
+if	if [ -n "$1" ]; then\n\t\nfi\n
+for files	for f in *; do\n\techo "$f"\ndone\n
+function	name() {\n\tlocal arg="$1"\n}\n
+case	case "$1" in\n\tstart) ;;\n\t*) echo "usage: $0 start" ;;\nesac\n

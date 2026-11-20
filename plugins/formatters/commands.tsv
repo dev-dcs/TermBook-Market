@@ -1,0 +1,5 @@
+Format file (clang-format)	clang-format -i "$TB_FILE" && echo formatted "$TB_FILE"
+Format file (black)	black "$TB_FILE"
+Format file (shfmt)	shfmt -w "$TB_FILE" && echo formatted "$TB_FILE"
+Lint file (shellcheck)	shellcheck "$TB_FILE"
+Count lines in project	find . -type f -not -path "./.git/*" | xargs wc -l | tail -n 1

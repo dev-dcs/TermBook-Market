@@ -1,0 +1,24 @@
+# TermBook market index. One entry per line, fields separated by TABs:
+# kind	id	name	description	source
+# kind "plugin": source is an https git link, "#folder" picks a folder inside the repo
+# kind "package": source is one or more package names for tb-install
+plugin	dcs.formatters	Formatters	Format or lint the open file (clang-format, black, shfmt, shellcheck)	https://github.com/dev-dcs/TermBook-Market#plugins/formatters
+plugin	dcs.cmake-starter	CMake starter	C project template built with CMake and Ninja	https://github.com/dev-dcs/TermBook-Market#plugins/cmake-starter
+plugin	dcs.extra-themes	Extra themes	Midnight Banana and Paper	https://github.com/dev-dcs/TermBook-Market#plugins/extra-themes
+plugin	dcs.snippets	Snippets	Snippets for C, Python, shell and Kotlin	https://github.com/dev-dcs/TermBook-Market#plugins/snippets
+package	htop	htop	Process viewer	htop
+package	bat	bat	cat with syntax highlighting	bat
+package	tree	tree	Folder trees	tree
+package	ncdu	ncdu	Disk usage browser	ncdu
+package	fzf	fzf	Fuzzy finder	fzf
+package	tmux	tmux	Terminal multiplexer	tmux
+package	neovim	Neovim	Editor	neovim
+package	micro	micro	Simple terminal editor	micro
+package	nmap	nmap	Network scanner	nmap
+package	android-tools	Android tools	adb and fastboot	android-tools
+package	aapt	aapt	Android asset packaging tool	aapt
+package	apksigner	apksigner	Sign APKs	apksigner
+package	ffmpeg	ffmpeg	Audio and video converter	ffmpeg
+package	imagemagick	ImageMagick	Image converter	imagemagick
+package	yt-dlp	yt-dlp	Video downloader	yt-dlp
+package	rsync	rsync	File sync	rsync
